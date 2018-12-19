@@ -1,0 +1,21 @@
+.blog-single {
+
+  button {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.no-before {
+  &:before {
+    content: none!important;
+  }
+}
+
+.no-after {
+  &:after {
+    content: none!important;
+  }
+}
