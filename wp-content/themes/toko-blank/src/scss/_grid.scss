@@ -1,0 +1,21 @@
+.grid {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  box-sizing: border-box;
+
+  &-l {
+    padding-left: 5vw;
+    padding-right: 0vw;
+  }
+
+  &-r {
+    padding-left: 0vw;
+    padding-right: 5vw;
+  }
+
+  &--small {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    box-sizing: border-box;
+  }
+}
