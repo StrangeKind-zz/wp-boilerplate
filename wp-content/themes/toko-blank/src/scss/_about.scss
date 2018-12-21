@@ -32,12 +32,26 @@
       margin: 0;
       color: $dark;
       background: $blush-pink;
-      padding: 40px 60px 40px 60px;
-      min-width: 500px;
+      padding: 40px 30px 40px 30px;
+      width: 100%;
       margin-top: -40px;
       display: inline-block;
       border-radius: 40px;
       position: relative;
+      word-break: break-all;
+      font-size: 24px;
+
+      @media (min-width: 510px) {
+        font-size: 36px;
+      }
+      @media (min-width: 768px) {
+      padding: 40px 60px 40px 60px;
+      min-width: 500px;
+      }
+      @media (min-width: 992px) {
+      }
+      @media (min-width: 1200px) {
+      }
 
       &:after {
         width: 50px;
@@ -47,7 +61,11 @@
         background: $irish-green;
         position: absolute;
         bottom: 20px;
-        left: 63px;
+        left: 30px;
+
+        @media (min-width: 768px) {
+          left: 63px;
+        }
       }
     }
   }
@@ -134,7 +152,17 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
+
+  @media (min-width: 510px) {
+  }
+  @media (min-width: 768px) {
+    background-attachment: fixed;
+  }
+  @media (min-width: 992px) {
+  }
+  @media (min-width: 1200px) {
+  }
 
   &-overlap-white {
 
@@ -166,6 +194,13 @@
       color: $cotton-pink;
       position: relative;
       margin-top: 50px;
+      text-align: center;
+      font-size: 21px;
+
+      @media (min-width: 510px) {
+        text-align: right;
+        font-size: 24px;
+      }
 
       span {
         content: "";
@@ -175,7 +210,13 @@
         width: 50px;
         position: absolute;
         bottom: -25px;
-        right: 0;
+        right: 50%;
+        margin-right: -25px;
+
+        @media (min-width: 510px) {
+          margin-right: inherit;
+          right: 0;
+        }
       }
     }
 
@@ -185,6 +226,11 @@
       line-height: 26px;
       color: white;
       margin: 40px 0 40px 0;
+      text-align: center;
+
+      @media (min-width: 510px) {
+        text-align: left;
+      }
     }
 
     button {

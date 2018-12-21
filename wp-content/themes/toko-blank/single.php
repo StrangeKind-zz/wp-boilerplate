@@ -18,7 +18,7 @@
     <?php the_content(); ?>
   <?php endwhile; endif; ?>
 
-  <a href="#"><button class="cta--primary">Terug naar blog</button></a>
+  <a href="http://www.marjolijnvlug.nl/blogs"><button class="cta--primary">Terug naar blog</button></a>
 </div>
 </div>
 </div>

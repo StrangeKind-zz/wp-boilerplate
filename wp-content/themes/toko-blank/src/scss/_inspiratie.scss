@@ -31,13 +31,18 @@
   }
 
   .episode-block {
-    border: 2px solid $mega-pink;
+    border: 3px solid $mega-pink;
     width: 100%;
     display: flex;
     align-content: center;
     padding: 20px 30px 20px 30px;
     border-radius: 40px;
     margin-bottom: 100px;
+    transition: $transition-main;
+
+    &:hover {
+      background: $mega-pink;
+    }
   }
 }
 
@@ -55,6 +60,15 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: $transition-main;
+
+    &:hover {
+      opacity: 0.8;
+
+      &:after {
+        transform: scale(1.1);
+      }
+    }
 
     &:before {
       background: $dark;
@@ -81,6 +95,7 @@
       background-position: center;
       background-repeat: no-repeat;
       content: "";
+      transition: $transition-main;
     }
   }
 

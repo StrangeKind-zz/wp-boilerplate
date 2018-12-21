@@ -12,28 +12,28 @@
       <div class="item active">
         <div class="d-block w-100 item--photo" style="background-image: url('<?php the_field('header_image_01'); ?>');" alt="First slide"></div>
         <div class="carousel-caption">
-          <h1 data-parallax='{"y": 80, "smoothness": 180}'><?php the_field('header_title_01'); ?></h1>
-          <span data-parallax='{"y": 80, "smoothness": 180}'></span>
-          <p data-parallax='{"y": 80, "smoothness": 180}'><?php the_field('header_text_01'); ?></p>
-          <button data-parallax='{"y": 80, "smoothness": 180}' class="cta--primary">Lees meer</button>
+          <h1 data-parallax='{"y": 80, "smoothness": 30}'><?php the_field('header_title_01'); ?></h1>
+          <span data-parallax='{"y": 80, "smoothness": 30}'></span>
+          <p data-parallax='{"y": 80, "smoothness": 30}'><?php the_field('header_text_01'); ?></p>
+          <button data-parallax='{"y": 80, "smoothness": 30}' class="cta--primary">Lees meer</button>
         </div>
       </div>
       <div class="item">
         <div class="d-block w-100 item--photo" style="background-image: url('<?php the_field('header_image_02'); ?>');" alt="Second slide"></div>
         <div class="carousel-caption">
-          <h1 data-parallax='{"y": 80, "smoothness": 180}'><?php the_field('header_title_02'); ?></h1>
-          <span data-parallax='{"y": 80, "smoothness": 180}'></span>
-          <p data-parallax='{"y": 80, "smoothness": 180}'><?php the_field('header_text_02'); ?></p>
-          <button data-parallax='{"y": 80, "smoothness": 180}' class="cta--primary">Lees meer</button>
+          <h1 data-parallax='{"y": 80, "smoothness": 30}'><?php the_field('header_title_02'); ?></h1>
+          <span data-parallax='{"y": 80, "smoothness": 30}'></span>
+          <p data-parallax='{"y": 80, "smoothness": 30}'><?php the_field('header_text_02'); ?></p>
+          <button data-parallax='{"y": 80, "smoothness": 30}' class="cta--primary">Lees meer</button>
         </div>
       </div>
       <div class="item">
         <div class="d-block w-100 item--photo" style="background-image: url('<?php the_field('header_image_03'); ?>');" alt="Third slide"></div>
         <div class="carousel-caption">
-          <h1 data-parallax='{"y": 80, "smoothness": 180}'><?php the_field('header_title_03'); ?></h1>
-          <span data-parallax='{"y": 80, "smoothness": 180}'></span>
-          <p data-parallax='{"y": 80, "smoothness": 180}'><?php the_field('header_text_03'); ?></p>
-          <button data-parallax='{"y": 80, "smoothness": 180}' class="cta--primary">Lees meer</button>
+          <h1 data-parallax='{"y": 80, "smoothness": 30}'><?php the_field('header_title_03'); ?></h1>
+          <span data-parallax='{"y": 80, "smoothness": 30}'></span>
+          <p data-parallax='{"y": 80, "smoothness": 30}'><?php the_field('header_text_03'); ?></p>
+          <button data-parallax='{"y": 80, "smoothness": 30}' class="cta--primary">Lees meer</button>
         </div>
       </div>
     </div>
@@ -48,8 +48,7 @@
 
   <section class="welcome grid animated plx-1">
       <div class="col-md-5">
-        <h1>Welkom op</h1> <span class="green"></span>
-        <span class="none"></span><h1>je werk!</h1>
+        <img class="animated plx-1" src="wp-content/themes/toko-blank/src/img/assets/welkom.png">
       </div>
   </section>
 

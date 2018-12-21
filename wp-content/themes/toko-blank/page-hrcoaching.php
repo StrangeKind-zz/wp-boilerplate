@@ -78,11 +78,13 @@
              </div>
              </div>
 
-             <button class="cta--mega">
+             <a href="tel:+31640393413">
+             <button class="cta--mega animated plx-1 eighth">
                <img src="../wp-content/themes/toko-blank/src/img/assets/vragen--icon.svg">
                Vragen of maatwerk?</br>
                Bel even: 06 403 93 413
              </button>
+             </a>
          </div>
      </div>
 

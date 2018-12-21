@@ -26,7 +26,7 @@
     li {
       a {
         color: $dark;
-        line-height: 24px;
+        line-height: 35px;
         font-family: $poppins;
         transition: .3s;
         position: relative;
@@ -53,7 +53,7 @@
           &:after {
             content: "";
             width: 100%;
-            height: 2px;
+            height: 3px;
             background: $irish-green;
             position: absolute;
             bottom: 0;
@@ -67,7 +67,7 @@
             &:after {
               content: "";
               width: 100%;
-              height: 2px;
+              height: 3px;
               background: $irish-green;
               position: absolute;
               bottom: 0;
@@ -89,12 +89,22 @@
     padding-bottom: 30px;
     position: relative;
     overflow: hidden;
-    display: flex;
+    display: block;
     justify-content: space-between;
     font-size: 14px;
     font-family: $poppins;
     transition: .3s;
     align-items: center;
+
+    @media (min-width: 510px) {
+    display: flex;
+    }
+    @media (min-width: 862px) {
+    }
+    @media (min-width: 992px) {
+    }
+    @media (min-width: 1200px) {
+    }
 
     ul {
       padding-inline-start: 0px;
@@ -108,7 +118,11 @@
     }
 
     &__details {
-      height: 18px;
+      height: 48px;
+
+      @media (min-width: 510px) {
+          height: 18px;
+      }
     }
   }
 
@@ -138,11 +152,22 @@
         a {
           color: $light;
           text-transform: uppercase;
-          font-size: 13px;
+          font-size: 12px;
           background: $mega-pink;
-          padding: 7px 17px 7px 17px;
+          border: 3px solid $mega-pink;
+              padding: 5px 5px 3px 7px;
           margin-left: 10px;
-          border-radius: 15px;
+          border-radius: 25px;
+
+          @media (min-width: 510px) {
+            padding: 7px 17px 7px 17px;
+            font-size: 13px;
+          }
+
+          &:hover {
+            background: $dark;
+            border: 3px solid white;
+          }
         }
       }
     }
