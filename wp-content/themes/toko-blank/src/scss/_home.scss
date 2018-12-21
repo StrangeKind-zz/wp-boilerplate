@@ -212,6 +212,11 @@ body {
   display: flex;
   align-items: center;
 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
   h1 {
     color: $dark;
     font-size: 46px;
@@ -379,7 +384,17 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
+
+  @media (min-width: 510px) {
+  }
+  @media (min-width: 768px) {
+    background-attachment: fixed;
+  }
+  @media (min-width: 992px) {
+  }
+  @media (min-width: 1200px) {
+  }
 
   &-large {
     height: 100vh;

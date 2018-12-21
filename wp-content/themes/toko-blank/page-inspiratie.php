@@ -27,7 +27,7 @@
           <div class="col-md-6">
             <h2><?php the_field('section_subtitle_wib'); ?></h2>
             <p><?php the_field('section_paragraph_wib'); ?></p>
-            <button class="cta--primary">Lees meer</button>
+            <a href="http://www.marjolijnvlug.nl/blogs"><button class="cta--primary">Lees meer</button></a>
           </div>
         </div>
       </section>
@@ -37,9 +37,10 @@
         <?php query_posts('showposts=1&category_name=podcasts'); ?>
         <div class="col-md-6 col-md-offset-3">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-          <a href="<?php the_permalink(); ?>">
+
           <h2><?php echo get_the_title( $post_id ); ?></h2>
           <p><?php the_content() ?></p>
+          <a href="<?php the_permalink(); ?>">
           <div class="episode-block">
             <h4><?php the_field('seizoen'); ?>: <span><?php the_field('aflevering_naam'); ?></span></h4>
           </div>

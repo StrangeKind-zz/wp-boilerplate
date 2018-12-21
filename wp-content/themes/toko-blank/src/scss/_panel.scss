@@ -47,10 +47,20 @@
           display: inline-block;
           background: transparent;
           border: 3px solid $dark;
-          font-size: 26px;
+          font-size: 18px;
           padding: 20px 30px 20px;
           color: $dark;
           border-radius: 50px;
+
+          @media (min-width: 510px) {
+          }
+          @media (min-width: 862px) {
+            font-size: 26px;
+          }
+          @media (min-width: 992px) {
+          }
+          @media (min-width: 1200px) {
+          }
 
           &:after {
             content: "";
@@ -93,10 +103,20 @@
       display: inline-block;
       background: $dark;
       border: 3px solid $dark;
-      font-size: 26px;
+      font-size: 18px;
       padding: 20px 30px 20px;
       color: white;
       border-radius: 50px;
+
+      @media (min-width: 510px) {
+      }
+      @media (min-width: 862px) {
+        font-size: 26px;
+      }
+      @media (min-width: 992px) {
+      }
+      @media (min-width: 1200px) {
+      }
 
       &:after {
         content: "";
@@ -363,4 +383,9 @@
       border-bottom-color: #ebccd1;
     }
   }
+}
+
+.size-medium {
+    max-width: 80%;
+    height: auto;
 }
